@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/layout_toolbar" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:contentDescription="TODO"
+        android:src="@mipmap/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:text="\t\t\t\t内蒙古去家里网络科技有限公司成立于2017年，是一家集软件定制、APP开发、公众号开发、小程序开发、平台运营与推广、
+    行业解决方案及渠道销售于一体的高端技术驱动型企业。致力于“互联网+”新型电子商务模式及企事业单位信息化建设，
+    专注于为企事业单位提供一站式移动互联解决方案。凭借专业的人才、雄厚的技术开发实力和互联网运营能力，全方位满足企事业单位、
+    社会组织、政府行业信息化及“互联网+”建设需求。目前公司自主运营 “叫个工人”、“享挣钱”、“广告圈”、“企业推广助手”、“英多商云”等平台。"
+        android:textColor="#343434"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

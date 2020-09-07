@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/refuse_msg"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="介绍、图片中包含联系方式"
+        android:textColor="#ffe91e42"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/refuse_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2019-08-14"
+        android:textColor="#ff999999"
+        android:textSize="14sp"
+        />
+
+
+</LinearLayout>

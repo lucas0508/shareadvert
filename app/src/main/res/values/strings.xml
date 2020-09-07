@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">享挣钱</string>
+
+    <string name="navigation_home">公司</string>
+    <string name="navigation_resources">资源</string>
+    <string name="navigation_require">需求</string>
+    <string name="navigation_mine">我的</string>
+    <string name="search_input_tips">请输入搜索内容</string>
+
+    <!--setting -->
+    <string name="title">温馨提示</string>
+    <string name="done">确定</string>
+    <string name="cancel">取消</string>
+    <string name="no_version">已经是最新版本啦~</string>
+    <string name="new_version">有最新版本可更新：</string>
+    <string name="check_update_fail">检查新版本失败</string>
+    <string name="down_load_fail">下载安装包失败</string>
+    <string name="updating">正在更新</string>
+    <string name="setting_exit">退出</string>
+    <string name="exit_app">再按一次退出程序</string>
+    <!--feed back-->
+    <string name="error_message">发生了一些错误</string>
+    <string name="empty_message">没有数据哎~</string>
+    <string name="agreement">服务协议和隐私政策</string>
+
+    <string name="tishi">提示：\n1.发布的媒体广告内容需平台审核后才能上线;\n2.发布的内容与图片均不可包含任何联系方式;\n3.发布内容需真实有效,否则将不予通过.</string>
+
+    <string name="search">搜索</string>
+    <string name="scan">扫一扫</string>
+    <string name="share">分享</string>
+    <string name="qrcode_share">二维码分享</string>
+    <string name="open_it_with_system_browser">系统浏览器</string>
+    <string name="app_title_url">%1$s 分享的【%2$s】戳此链接查看☞：%3$s</string>
+    <string name="qrcode">扫一扫二维码，可分享文章</string>
+
+</resources>
